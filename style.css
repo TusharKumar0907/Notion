@@ -1,0 +1,105 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0%;
+    background: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+    position: fixed;
+    width:100%;
+    top: 0;
+    z-index: 2;
+}
+
+#left_header {
+    display: flex;
+}
+
+#left_header img {
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+}
+
+#navbar {
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #050505;
+}
+
+#navbar li a:hover {
+    color: #088178;
+}
+
+#navbar_right {
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+}
+
+#navbar_right li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+#navbar_right li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #050505;
+}
+
+#navbar_right li a:hover {
+    color: #088178;
+}
+
+#hero {
+    text-align: center;
+}
+
+#heroPhoto {
+    margin-top: 3%;
+    margin-left: 29%;
+    margin-right: 50%;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+
+.container div:hover {
+    transform: scale(1.05);
+}
+
+#customers {
+    align-items: center;
+    text-align: center;
+}
+
+#teams {
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+}
+
+
